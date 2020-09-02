@@ -13,7 +13,6 @@ for i in `seq $3`
 do
   swap_hostnames && displayWorkSessionNotification $i && sleep $WORK_TIME_SECONDS
   swap_hostnames && displayPauseSessionNotification $i && sleep $PAUSE_TIME_SECONDS
-
 done
 
 remove_blocked_hostnames
